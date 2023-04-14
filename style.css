@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+:root {
+--rosa-fundo: #faa7ca;
+--branco: #ffffff;
+--rosa-mais-forte: #e05590;
+}
+
+
+
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--rosa-fundo);
+    color: var(--branco);
+}
+
+
+.destaque-titulo {
+    color: var(--rosa-mais-forte)
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem__mymelody {
+    border-radius: 50%;
+    width: 40%; 
+    height: auto;
+  }
+
+  .apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .apresentacao__titulo {
+    font-size: 36px;
+    font-family: 'PT Serif', serif;
+  }
+
+  .descricao {
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+  }
+
+  .botoes {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .botao__link {
+    text-decoration: none;
+    background-color: var(--rosa-mais-forte);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    font-family: 'Bree Serif', serif;
+    color: var(--branco)
+  }
+
